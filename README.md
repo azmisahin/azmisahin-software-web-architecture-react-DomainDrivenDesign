@@ -2,7 +2,7 @@
 React, Webpack, nodejs, express, bootstrapt
 
 # Continuous Deployment
-https://azmisahin-react.herokuapp.com/
+https://azmisahin-react.herokuapp.com
 
 # Continuous Integration
 https://travis-ci.org/azmisahin/com.domain.www.react.web
