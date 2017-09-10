@@ -1,6 +1,6 @@
 {
   "name": "React Heroku Application",
-  "description": "Azmi SAHİN React Herko App",
+  "description": "Azmi SAHİN React Heroku App",
   "repository": "https://github.com/azmisahin/com.domain.www.react.web.git",
   "logo": "http://azmisahin.github.io/favicon.png",
   "keywords": ["React", "Webpack", "nodejs", "express", "bootstrapt"],
