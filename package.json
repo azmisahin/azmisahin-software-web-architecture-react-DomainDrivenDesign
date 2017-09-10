@@ -1,7 +1,20 @@
 {
   "name": "com.domain.www.react.web",
+  "description": "React Application With Heroku. Continuous Deployment. Continuous Integration.",
+  "keywords": [
+    "Azmi ŞAHİN",
+    "React",
+    "Nodejs",
+    "Bootstrap",
+    "Heroku",
+    "CI",
+    "CD"
+  ],
+  "author": "bilgi@azmisahin.com",
+  "license": "MIT",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://azmisahin-react.herokuapp.com",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",

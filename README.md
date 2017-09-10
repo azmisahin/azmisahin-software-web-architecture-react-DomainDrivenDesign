@@ -1,5 +1,5 @@
 # React Web Application
-React, Webpack, nodejs, express, bootstrapt
+React, nodejs, bootstrapt
 
 # Continuous Deployment
 https://azmisahin-react.herokuapp.com
@@ -22,22 +22,9 @@ $ npm install
 $ npm run build
 
 # User
-$ watch
-$ webpack
-$ npm run server
+$ npm start
 
-# Developer Dependencies
-- clean-webpack-plugin
-- css-loader
-- csv-loader
-- file-loader
-- html-webpack-plugin
-- lodash
-- style-loader
-- webpack
-- webpack-dev-server
-- xml-loader
-- express
-- webpack-dev-middleware
-- uglifyjs-webpack-plugin
-- webpack-merge
+# Dependencies
+- react
+- react-dom
+- react-scripts

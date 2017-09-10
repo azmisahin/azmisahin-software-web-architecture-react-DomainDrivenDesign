@@ -12,10 +12,14 @@
  * ████████████████████████████████████████████████████████████████████████████████████████████████████
  **/
 
+// Require
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+// Referance
 import App from './app';
 
+// Test
 it('Application Render', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);

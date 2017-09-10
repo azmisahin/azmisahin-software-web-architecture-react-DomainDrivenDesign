@@ -12,6 +12,10 @@
  * ████████████████████████████████████████████████████████████████████████████████████████████████████
  **/
 
+/**
+ * Is Local Host Application
+ * @return bool
+ */
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
   // [::1] is the IPv6 localhost address.
@@ -22,6 +26,9 @@ const isLocalhost = Boolean(
   )
 );
 
+/**
+ * Register
+ */
 export default function register() {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     const publicUrl = new URL(process.env.PUBLIC_URL, window.location);
@@ -41,6 +48,10 @@ export default function register() {
   }
 }
 
+/**
+ * Register URL
+ * @param {*Uri} swUrl 
+ */
 function registerValidSW(swUrl) {
   navigator.serviceWorker
     .register(swUrl)
@@ -63,6 +74,10 @@ function registerValidSW(swUrl) {
     });
 }
 
+/**
+ * Check Valid Service Worker
+ * @param {*URL} swUrl 
+ */
 function checkValidServiceWorker(swUrl) {
   fetch(swUrl)
     .then(response => {
@@ -86,6 +101,9 @@ function checkValidServiceWorker(swUrl) {
     });
 }
 
+/**
+ * Un Register
+ */
 export function unregister() {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready.then(registration => {

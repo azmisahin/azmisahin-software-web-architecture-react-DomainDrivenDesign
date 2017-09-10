@@ -12,11 +12,16 @@
  * ████████████████████████████████████████████████████████████████████████████████████████████████████
  **/
 
+// Require
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+// Referance
 import App from './app';
 import registerServiceWorker from './registerServiceWorker';
 
+// Render Application
 ReactDOM.render(<App />, document.getElementById('root'));
+
+// Service
 registerServiceWorker();
