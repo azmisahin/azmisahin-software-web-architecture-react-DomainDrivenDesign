@@ -47,6 +47,7 @@ class App extends Component {
             <img alt="Continuous Integration" src="https://travis-ci.org/azmisahin/com.domain.www.react.web.svg?branch=master" />
             <a href="https://azmisahin-react.herokuapp.com">Continuous Deployment.</a>
             <a href="https://travis-ci.org/azmisahin/com.domain.www.react.web">Continuous Integration.</a>
+            <p>Heroku Pipeline</p>
           </div>
         </div>
 
