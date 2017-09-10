@@ -1,5 +1,5 @@
 # React Web Application
-React, nodejs, bootstrapt
+React Application With Heroku. Continuous Deployment. Continuous Integration.
 
 # Continuous Deployment
 https://azmisahin-react.herokuapp.com
@@ -14,7 +14,6 @@ https://travis-ci.org/azmisahin/com.domain.www.react.web
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fazmisahin%2Fcom.domain.www.react.web.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fazmisahin%2Fcom.domain.www.react.web?ref=badge_large)
 
-
 # Installation
 $ npm install
 
@@ -22,7 +21,11 @@ $ npm install
 $ npm run build
 
 # User
-$ npm start
+$ npm run start
+
+$ npm run test
+
+$ npm run eject
 
 # Dependencies
 - react
