@@ -14,6 +14,7 @@ import './style.css';
 import PageHeader from "./pageHeader";
 import PageContent from "./pageContent";
 
+import Timer from "../../components/timer";
 /**
  * Home Page
  */
@@ -27,6 +28,7 @@ class HomePage extends Component {
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <PageContent></PageContent>
+                        <Timer></Timer>
                     </div>
                 </div>
             </div>
