@@ -11,30 +11,28 @@ import React, { Component } from 'react';
 
 // Referance
 import './style.css';
-import logo from './favicon.png';
+import PageHeader from "./pageHeader";
+import PageContent from "./pageContent";
 
 /**
- * Navigation Component
+ * Home Page
  */
-class Nav extends Component {
+class HomePage extends Component {
     render() {
         return (
             <div className="container">
-                <div className="page-header">
-                    <img src={logo} alt="Azmi ŞAHİN" />
-                    <h1>React With Bootstrap / Webpack</h1>
-                </div>
-                <div className="page-content">
-                    <p>React, bootstrap, nodejs with frontend web application.</p>
-                    <img alt="Continuous Integration" src="https://travis-ci.org/azmisahin/com.domain.www.react.web.svg?branch=master" />
-                    <a href="https://azmisahin-react.herokuapp.com">Continuous Deployment.</a>
-                    <a href="https://travis-ci.org/azmisahin/com.domain.www.react.web">Continuous Integration.</a>
-                    <p>Heroku Pipeline</p>
+                <div className="row">
+                    <div className="col-lg-6 col-md-12">
+                        <PageHeader></PageHeader>
+                    </div>
+                    <div className="col-lg-6 col-md-12">
+                        <PageContent></PageContent>
+                    </div>
                 </div>
             </div>
         );
     }
 }
 
-// Export Navigation
-export default Nav
+// Export Module
+export default HomePage
