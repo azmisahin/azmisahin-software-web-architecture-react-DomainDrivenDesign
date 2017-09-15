@@ -14,7 +14,7 @@ import React, { Component } from 'react';
 /**
  * Timer Component
  */
-class Timer extends React.Component {
+class Timer extends Component {
 
     // Constructor
     constructor(props) {
@@ -55,7 +55,7 @@ class Timer extends React.Component {
     render() {
         return (
             <div className="alert alert-secondary">
-                Seconds Elapsed:
+                {this.props.title}
                 <span className="badge badge-primary">
                     {this.state.secondsElapsed}
                 </span>
