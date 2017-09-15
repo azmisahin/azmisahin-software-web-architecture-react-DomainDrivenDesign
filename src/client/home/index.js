@@ -15,6 +15,8 @@ import PageHeader from "./pageHeader";
 import PageContent from "./pageContent";
 
 import Timer from "../../components/timer";
+import Todo from "../../components/todo";
+
 /**
  * Home Page
  */
@@ -29,6 +31,7 @@ class HomePage extends Component {
                     <div className="col-lg-6 col-md-12">
                         <PageContent></PageContent>
                         <Timer title="Timer : "></Timer>
+                        <Todo></Todo>
                     </div>
                 </div>
             </div>
