@@ -17,6 +17,8 @@ import PageContent from "./pageContent";
 import Timer from "../../components/timer";
 import Todo from "../../components/todo";
 
+import SessionManager from "../../manager/session";
+
 /**
  * Home Page
  */
@@ -32,6 +34,8 @@ class HomePage extends Component {
                         <PageContent></PageContent>
                         <Timer title="Timer : "></Timer>
                         <Todo></Todo>
+                        <hr/>
+                        <SessionManager></SessionManager>
                     </div>
                 </div>
             </div>

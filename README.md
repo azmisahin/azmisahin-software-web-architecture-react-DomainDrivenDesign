@@ -31,3 +31,4 @@ $ npm run eject
 - react
 - react-dom
 - react-scripts
+- redux
